@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="google-signin-client_id" content="YOUR_CLIENT_ID.apps.googleusercontent.com" />
+  <title>Quibly</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- FONTAWESOME -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+    integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous" />
+  <!-- SCROLL -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- === NAVBAR === -->
+  <header class="navbar" data-aos="fade-down">
+    <div class="container">
+      <a class="nav_logo" href="#">
+        <img src="assets/logos/qubly.svg" alt="Logo" />
+      </a>
+
+      <ul class="nav_menu" id="navMenu">
+        <li class="nav_item">
+          <a class="nav_link" href="#">About</a>
+        </li>
+        <li class="nav_item">
+          <a class="nav_link" href="#">Pricing</a>
+        </li>
+        <li class="nav_item">
+          <a class="nav_link" href="#">Contact Us</a>
+        </li>
+        <li class="nav_item">
+          <a class="nav_link" href="#">Login</a>
+        </li>
+
+        <button type="button" class="get_started" onclick="document.location='#signup'">
+          Get Started
+        </button>
+      </ul>
+    </div>
+  </header>
+
+  <!-- === HERO === -->
+  <section class="hero">
+    <div class="bg_gradient"></div>
+
+    <div class="container">
+      <div class="hero_content" data-aos="fade-right">
+        <div class="tag">
+          <i class="fas fa-star"></i>
+          <p>v3.1 released. <a href="#">Learn more</a></p>
+        </div>
+
+        <div class="hero_title" id="title">
+          <h1>
+            Your data with <br />
+            real-time analytics
+          </h1>
+        </div>
+
+        <div class="hero_subtitle" id="subtitle">
+          <p>
+            Harness the potential of Big Data Analytics & Cloud Services and
+            become a data-driven organization with Needle tail
+          </p>
+        </div>
+
+        <div class="hero_btn">
+          <button type="button" class="btn_primary">Start free trial</button>
+          <button type="button" class="btn_secondary">Learn More</button>
+        </div>
+      </div>
+
+      <img src="assets/images/hero.png" alt="Data Image" data-aos="zoom-out" data-aos-delay="400" />
+    </div>
+  </section>
+
+  <!-- === WHY QUBLY === -->
+  <section class="why_qubly" data-aos="fade-down">
+    <div class="container">
+      <div class="tag">
+        <i class="fas fa-eye"></i>
+        <p>Why Qubly</p>
+      </div>
+
+      <div class="why_title" id="title">
+        <h2>Get actionable insights from Big Data in 3 steps</h2>
+      </div>
+
+      <div class="why_subtitle" id="subtitle">
+        <p>
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+          erat, sed diam voluptua.
+        </p>
+      </div>
+
+      <div class="service" data-aos="zoom-out" data-aos-delay="400" >
+        <div class="service_content">
+          <div class="service_img data">
+            <img src="assets/images/Data.png" alt="Data in real-time" />
+          </div>
+          <h4 class="service_title">
+            Data in <br />
+            real-time
+          </h4>
+          <p class="service_description">
+            Collect data in real-time from multiple channels and move it into
+            a data lake, in its original format.
+          </p>
+        </div>
+
+        <div class="service_content">
+          <div class="service_img algorithm">
+            <img src="assets/images/algorithm.png" alt="Powerfull Algorithms" />
+          </div>
+          <h4 class="service_title">Powerful Algorithms</h4>
+          <p class="service_description">
+            With the help of powerful algorithms, quality rules & techniques,
+            obtain simplified & enriched data.
+          </p>
+        </div>
+
+        <div class="service_content">
+          <div class="service_img insight">
+            <img src="assets/images/insights.png" alt="Valuable business insights" />
+          </div>
+          <h4 class="service_title">Valuable business insights</h4>
+          <p class="service_description">
+            Collect processed & cleansed data that is ready to be analyzed to
+            gather valuable business insights.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- === FOR PRODUCT TEAMS === -->
+  <section class="team">
+    <div class="container">
+      <div class="team_img" data-aos="zoom-out" data-aos-delay="400">
+        <img src="assets/logos/qubly-blue.svg" alt="Qubly Blue" />
+
+        <div class="logo_wrapper">
+          <img src="assets/logos/logo-1.png" alt="logo-1" />
+        </div>
+        <div class="logo_wrapper">
+          <img src="assets/logos/logo-2.png" alt="logo-2" />
+        </div>
+        <div class="logo_wrapper">
+          <img src="assets/logos/logo-3.png" alt="logo-3" />
+        </div>
+        <div class="logo_wrapper">
+          <img src="assets/logos/logo-4.png" alt="logo-4" />
+        </div>
+        <div class="logo_wrapper">
+          <img src="assets/logos/logo-5.png" alt="logo-5" />
+        </div>
+        <div class="logo_wrapper">
+          <img src="assets/logos/logo-6.png" alt="logo-6" />
+        </div>
+        <div class="logo_wrapper">
+          <img src="assets/logos/logo-7.png" alt="logo-7" />
+        </div>
+
+        <div class="circle circle-1"></div>
+        <div class="circle circle-2"></div>
+        <div class="circle circle-3"></div>
+      </div>
+
+      <div class="team_content" data-aos="fade-left">
+        <div class="tag">
+          <i class="fas fa-sitemap"></i>
+          <p>For Product Teams</p>
+        </div>
+
+        <div class="team_title" id="title">
+          <h2>Lunch with the best stack</h2>
+        </div>
+
+        <div class="team_subtitle" id="subtitle">
+          <p>
+            A centralized platform that integrates zillions of data sources
+            using Big Data ELT (Extract, Load & Transform) that leaves no data
+            behind
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- === FOR ENGINEERING TEAMS === -->
+  <section class="team engineering">
+    <div class="container">
+      <div class="team_content" data-aos="fade-right">
+        <div class="tag">
+          <i class="fas fa-drafting-compass"></i>
+          <p>For Engineering Teams</p>
+        </div>
+
+        <div class="team_title" id="title">
+          <h2>Data-driven pipelines in minutes</h2>
+        </div>
+
+        <div class="team_subtitle" id="subtitle">
+          <p>
+            Maintenance-free data pipelines with quick set-up and
+            straight-forward deployments that are powered by a modern &
+            scalable platform.
+          </p>
+        </div>
+      </div>
+
+      <img src="assets/images/engineering.png" alt="FOR ENGINEERING TEAMS" data-aos="zoom-out" data-aos-delay="400" />
+    </div>
+  </section>
+
+  <!-- === TESTIMONIAL === -->
+  <section class="testimonial">
+    <div class="bg_gradient"></div>
+
+    <div class="container">
+      <h5 class="testimonial_quote" id="title" data-aos="fade-down">
+        "What I love about Qubly is the easy way we can collaborate even if
+        there is a lot of people involved in the process"
+      </h5>
+
+      <div class="profile">
+        <img src="assets/images/testimonial.png" alt="Profile" data-aos="zoom-in" />
+
+        <p class="profile_name" data-aos="fade-up" data-aos-delay="400">
+          Guillaume Cabane <br />
+          CTO @ BigSpring
+        </p>
+      </div>
+
+      <hr />
+
+      <div class="client_logos">
+        <img src="assets/logos/client-logos/tonkean.svg" alt="Tonkean logo" data-aos="fade-down" data-aos-delay="400" />
+        <img src="assets/logos/client-logos/BigSpring.svg" alt="BigSpring logo" data-aos="fade-down" data-aos-delay="500" />
+        <img src="assets/logos/client-logos/Clearbit.svg" alt="Clearbit logo" data-aos="fade-down" data-aos-delay="600" />
+        <img src="assets/logos/client-logos/Mine.svg" alt="Mine logo" data-aos="fade-down" data-aos-delay="700" />
+        <img src="assets/logos/client-logos/Shake.svg" alt="Shake logo" data-aos="fade-down" data-aos-delay="800" />
+      </div>
+    </div>
+  </section>
+
+  <!-- === SIGNUP FORM === -->
+  <section class="signup_form" id="signup">
+    <div class="container">
+      <div class="signup_content" data-aos="fade-right">
+        <h1 class="signup_title" id="title">
+          See why the world’s best companies use Qubly to become truly
+          data-driven.
+        </h1>
+
+        <div class="trusted_by" id="subtitle">
+          <hr />
+          <p>Trused by</p>
+          <hr />
+        </div>
+
+        <div class="client_logos">
+          <img src="assets/logos/client-logos/accenture-4.png" alt="Accenture logo" />
+          <img src="assets/logos/client-logos/react.png" alt="React logo" />
+          <img src="assets/logos/client-logos/airbnb.png" alt="Airbnb logo" />
+          <img src="assets/logos/client-logos/sky-4.png" alt="Sky logo" />
+        </div>
+      </div>
+
+      <div class="form" data-aos="flip-left">
+        <div class="form_background"></div>
+
+        <div class="signup_section">
+          <h3 class="form_title">Sign Up</h3>
+
+          <input class="email input" type="email" id="email" placeholder="Your primary email" required />
+          <input class="password input" type="password" id="password" placeholder="Password" required />
+          <input class="password input" type="password" id="password" placeholder="Re-type password" required />
+
+          <button class="start_btn" type="submit">
+            Start your free trial
+          </button>
+
+          <p class="or">OR</p>
+
+          <div id="my-signin2"></div>
+
+          <hr class="form_line" />
+
+          <p class="login">Already have an account? <a href="#">Login</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- === FOOTER === -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer_logo">
+        <img src="assets/logos/footer-logo.svg" alt="Footer logo" />
+
+        <p class="footer_description">
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+          nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+          volutpat ut wisi enim ad minim
+        </p>
+
+        <div class="social_icons">
+          <a href="https://www.facebook.com/" class="facebook" title="Facebook">
+            <i class="fab fa-facebook-square"></i>
+          </a>
+          <a href="https://twitter.com/" class="twitter" title="Twitter">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="https://www.instagram.com/" class="instagram" title="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer_nav">
+        <p class="nav_header">Product</p>
+
+        <div class="nav_list">
+          <a href="#" class="nav_link">Connections</a>
+          <a href="#" class="nav_link">Protocols</a>
+          <a href="#" class="nav_link">Personas</a>
+          <a href="#" class="nav_link">Integrations</a>
+          <a href="#" class="nav_link">Catalog</a>
+          <a href="#" class="nav_link">Pricing</a>
+          <a href="#" class="nav_link">Security</a>
+          <a href="#" class="nav_link">GDPR</a>
+        </div>
+      </div>
+
+      <div class="footer_nav">
+        <p class="nav_header">For Developers</p>
+
+        <div class="nav_list">
+          <a href="#" class="nav_link">Docs</a>
+          <a href="#" class="nav_link">API</a>
+          <a href="#" class="nav_link">Open Source</a>
+          <a href="#" class="nav_link">Engineering Team</a>
+        </div>
+      </div>
+
+      <div class="footer_nav">
+        <p class="nav_header">Company</p>
+
+        <div class="nav_list">
+          <a href="#" class="nav_link">Careers</a>
+          <a href="#" class="nav_link">Blog</a>
+          <a href="#" class="nav_link">Press</a>
+        </div>
+      </div>
+
+      <div class="footer_nav">
+        <p class="nav_header">Support</p>
+
+        <div class="nav_list">
+          <a href="#" class="nav_link">Help Center</a>
+          <a href="#" class="nav_link">Contact Us</a>
+          <a href="#" class="nav_link">Security Bulletins</a>
+          <a href="#" class="nav_link">Documentation</a>
+          <a href="#" class="nav_link">Partner Portal</a>
+        </div>
+      </div>
+
+      <div class="footer_nav">
+        <p class="nav_header">Newsletter</p>
+
+        <div class="newsletter_email">
+          <input type="email" id="newsletterEmail" placeholder="Email" />
+          <a href="#" class="send_btn"><i class="fas fa-paper-plane"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== GOOGLE ===== -->
+  <script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script>
+
+  <!-- ===== SCROLL ===== -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <!-- ===== SCROLL REVEAL ===== -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!-- ==== MAIN JS ===== -->
+  <script src="main.js"></script>
+</body>
+
+</html>
